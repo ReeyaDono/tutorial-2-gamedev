@@ -11,7 +11,7 @@ extents = Vector2( 69.375, 39.5 )
 [node name="MainLevel" type="Node"]
 
 [node name="PlatformBlue" type="Node2D" parent="."]
-position = Vector2( 35, 565 )
+position = Vector2( 50, 565 )
 script = ExtResource( 3 )
 
 [node name="StonePlatform" parent="PlatformBlue" instance=ExtResource( 1 )]
@@ -20,7 +20,8 @@ script = ExtResource( 3 )
 position = Vector2( 70, 0 )
 
 [node name="BlueShip" parent="." instance=ExtResource( 2 )]
-position = Vector2( 72.7009, 421.901 )
+position = Vector2( 60.701, 300.901 )
+rotation = -1.26885
 
 [node name="ObjectiveArea" type="Area2D" parent="."]
 script = ExtResource( 4 )

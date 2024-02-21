@@ -1,0 +1,236 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/GreenShip.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/SnowPlatform.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/GreenShip.gd" type="Script" id=3]
+[ext_resource path="res://scenes/StonePlatform.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/NewLevel.gd" type="Script" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 69.375, 39.5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 336.5, 35 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 3.25, 35 )
+
+[node name="NewLevel" type="Node"]
+script = ExtResource( 5 )
+
+[node name="GreenShip" parent="." instance=ExtResource( 1 )]
+position = Vector2( 110, 303 )
+script = ExtResource( 3 )
+
+[node name="StonePlatform" parent="." instance=ExtResource( 4 )]
+position = Vector2( 462, 225 )
+rotation = -1.5708
+
+[node name="StonePlatform2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 256, 48 )
+rotation = -3.14159
+
+[node name="StaticPlatform" type="Node2D" parent="."]
+
+[node name="StonePlatform" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 38, 381 )
+
+[node name="StonePlatform2" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 110, 381 )
+
+[node name="StonePlatform3" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 183, 381 )
+
+[node name="StonePlatform13" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 37, 34 )
+
+[node name="StonePlatform14" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 109, 34 )
+
+[node name="StonePlatform15" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 182, 34 )
+
+[node name="StonePlatform16" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 255, 35 )
+
+[node name="StonePlatform17" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 327, 35 )
+
+[node name="StonePlatform18" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 400, 35 )
+
+[node name="StonePlatform19" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 471, 36 )
+
+[node name="StonePlatform20" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 543, 35 )
+
+[node name="StonePlatform21" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 616, 35 )
+
+[node name="StonePlatform22" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 689, 36 )
+
+[node name="StonePlatform23" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 761, 36 )
+
+[node name="StonePlatform24" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 834, 36 )
+
+[node name="StonePlatform25" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 907, 36 )
+
+[node name="StonePlatform26" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 979, 36 )
+
+[node name="StonePlatform27" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1052, 36 )
+
+[node name="StonePlatform4" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 36, 526 )
+
+[node name="StonePlatform5" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 37, 454 )
+
+[node name="StonePlatform6" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 109, 454 )
+
+[node name="StonePlatform7" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 182, 454 )
+
+[node name="StonePlatform9" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 186, 526 )
+
+[node name="StonePlatform8" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 111, 526 )
+
+[node name="StonePlatform10" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 36, 598 )
+
+[node name="StonePlatform11" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 186, 598 )
+
+[node name="StonePlatform28" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 475, 105 )
+
+[node name="StonePlatform29" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 474, 178 )
+
+[node name="StonePlatform30" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 478, 250 )
+
+[node name="StonePlatform31" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 478, 322 )
+
+[node name="StonePlatform44" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( -41, 33 )
+
+[node name="StonePlatform45" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( -37, 102 )
+
+[node name="StonePlatform46" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( -38, 175 )
+
+[node name="StonePlatform47" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( -34, 247 )
+
+[node name="StonePlatform48" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( -34, 319 )
+
+[node name="StonePlatform49" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1060, 105 )
+
+[node name="StonePlatform50" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1064, 174 )
+
+[node name="StonePlatform51" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1063, 247 )
+
+[node name="StonePlatform52" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1063, 319 )
+
+[node name="StonePlatform53" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1063, 391 )
+
+[node name="StonePlatform54" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1065, 464 )
+
+[node name="StonePlatform55" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1076, 537 )
+
+[node name="StonePlatform56" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1076, 609 )
+
+[node name="StonePlatform12" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 111, 598 )
+
+[node name="StonePlatform32" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 455, 533 )
+
+[node name="StonePlatform33" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 605, 533 )
+
+[node name="StonePlatform34" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 530, 533 )
+
+[node name="StonePlatform35" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 455, 605 )
+
+[node name="StonePlatform36" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 605, 605 )
+
+[node name="StonePlatform37" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 530, 605 )
+
+[node name="StonePlatform38" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 853, 537 )
+
+[node name="StonePlatform39" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1003, 537 )
+
+[node name="StonePlatform40" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 928, 537 )
+
+[node name="StonePlatform41" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 853, 609 )
+
+[node name="StonePlatform42" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 1003, 609 )
+
+[node name="StonePlatform43" parent="StaticPlatform" instance=ExtResource( 2 )]
+position = Vector2( 928, 609 )
+
+[node name="DisappearingPlatform" type="Node2D" parent="."]
+
+[node name="StonePlatform" parent="DisappearingPlatform" instance=ExtResource( 4 )]
+position = Vector2( 261, 383 )
+
+[node name="StonePlatform2" parent="DisappearingPlatform" instance=ExtResource( 4 )]
+position = Vector2( 331, 383 )
+
+[node name="StonePlatform3" parent="DisappearingPlatform" instance=ExtResource( 4 )]
+position = Vector2( 401, 383 )
+
+[node name="ObjectiveArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveArea"]
+position = Vector2( 951, 452 )
+shape = SubResource( 1 )
+
+[node name="FailArea" type="Area2D" parent="."]
+position = Vector2( 232, 656 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FailArea"]
+position = Vector2( 281, 30 )
+shape = SubResource( 2 )
+
+[node name="ButtonArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ButtonArea"]
+position = Vector2( 420.25, 227 )
+shape = SubResource( 3 )
+
+[connection signal="body_entered" from="ObjectiveArea" to="." method="_on_ObjectiveArea_body_entered"]
+[connection signal="body_entered" from="FailArea" to="." method="_on_FailArea_body_entered"]
+[connection signal="body_entered" from="FailArea" to="GreenShip" method="_on_FailArea_body_entered"]
+[connection signal="body_entered" from="ButtonArea" to="." method="_on_ButtonArea_body_entered"]
